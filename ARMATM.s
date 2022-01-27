@@ -2,10 +2,10 @@
 @ csv0004@uah.edu
 @ CS 309-01
 
-@  as -o Lab5vanzant.o Lab5vanzant.s
-@  gcc -o Lab5vanzant Lab5vanzant.o
-@  ./Lab5vanzant ;echo $?
-@  gdb --args ./Lab5vanzant
+@  as -o ARMATM.o ARMATM.s
+@  gcc -o ARMATM ARMATM.o
+@  ./ARMATM ;echo $?
+@  gdb --args ./ARMATM
 
 .equ READERROR, 0
 
